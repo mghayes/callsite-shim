@@ -19,9 +19,12 @@
   },
   "private": true,
   "testling": {
-    "browsers": [
-        "firefox/15", "chrome/22"
-    ],
+    "browsers": {
+      "ie": [ 8, 9 ],
+      "ff": [ 12, 13 ],
+      "chrome": [ 20 ],
+      "safari": [ 5.1 ]
+    },
     "harness" : "mocha",
     "files": "test/callsite.test.js"
   }
