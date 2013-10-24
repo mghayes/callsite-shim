@@ -1,7 +1,7 @@
-/* global describe:true, it:true, assert:true */
+var assert = require('assert')
 
-describe('derp', function () {
-  it('should work', function () {
-    assert.isTrue(true);
-  });
-});
+describe('derp', function() {
+  it('should work', function() {
+    assert.ok(true)
+  })
+})

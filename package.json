@@ -17,5 +17,12 @@
     "mocha-phantomjs": "*",
     "sinon": "*"
   },
-  "private": true
+  "private": true,
+  "testling": {
+    "browsers": [
+        "firefox/15", "chrome/22"
+    ],
+    "harness" : "mocha",
+    "files": "test/callsite.test.js"
+  }
 }
